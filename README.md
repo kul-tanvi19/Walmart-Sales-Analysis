@@ -63,12 +63,12 @@ Dataset was provided by Kaggle Walmart Sales Forecasting Competition.
 
 
 ## Data Preparation
-  - Understanding the data : 
+  1. Understanding the data : 
       - Data consists of `17 Columns` and `1000 records`.
       - Column names are as ***Invoice ID***,	 ***Branch***,	 ***City***,	 ***Customer type***,  ***Gender***,  ***Product line***,  ***Unit price***,  ***Quantity***,  ***Tax 5%***,  ***Total***,  ***Date***,  ***Time***,  ***Payment***, ***cogs***,  ***gross margin percentage***,  ***gross income***,  ***Rating***.
       - This dataset contains the sales transactions from three Walmart branches located in Mandalay, Yangon and Naypyitaw, respectively.
  
-  - Data Cleaning/Wrangling :
+  2. Data Cleaning/Wrangling :
     </br>
     </br>
     This is the initial step, where we examine the data to check any NULL or missing or duplicate values and we replace those values using appropriate strategies.
@@ -77,9 +77,15 @@ Dataset was provided by Kaggle Walmart Sales Forecasting Competition.
       - Check for null values in entire table. As our table doesn't contain any NULL values.
       - Check for duplicates based on `Invoice ID`. No duplicates in our table.
 
- - Feature Engineering :
+ 3. Feature Engineering :
+   </br>
    </br>
    This allows us to generate new columns from existing ones to answer the questions asked.
       - Added new column named as `time_of_day` which gives the insight of sales done in the (***Morning***, ***Afternoon***, ***Evening***).
       - Added new column named as `day_name` which contains the extracted days of the week (***Mon***, ***Tue***, ***Wed***, ***Thu***, ***Fri***, ***Sat***, ***Sun***).
       - Added new column names as `month_name` which contains the extracted months of the year (***Jan***, ***Feb***, ***Mar***, *so on..*).
+
+4. EDA :
+   </br>
+   </br>
+   Conducting exploratory data analysis to address all the questions listed above.
