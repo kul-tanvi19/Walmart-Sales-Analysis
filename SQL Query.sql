@@ -73,7 +73,7 @@ set month_name = datename(m,date)
 ------------------------------------- Step 3 : EDA -----------------------------
 
 --------------------------------------------------------------------------------
-							-- Generic Questions 
+				-- Generic Questions 
 --------------------------------------------------------------------------------
 
 -- 1. How many distinct cities are present in the dataset?
@@ -90,12 +90,12 @@ from WalmartData
 
 
 --------------------------------------------------------------------------------
-							-- Product Analysis
+				-- Product Analysis
 --------------------------------------------------------------------------------
 
 -- 1. How many distinct product lines are there in the dataset?
 
-select distinct([Product line]) as 'Unique Product Lines'
+select count(distinct([Product line])) as 'Unique Product Lines'
 from WalmartData
 	
 
@@ -229,7 +229,7 @@ order by Avg_Rating
 
 
 --------------------------------------------------------------------------------
-							-- Customer Analysis
+				-- Customer Analysis
 --------------------------------------------------------------------------------
 
 -- 1. How many unique customer types does the data have?
@@ -323,7 +323,7 @@ where q.rnk = 1
 
 
 --------------------------------------------------------------------------------
-							-- Sales Analysis
+				-- Sales Analysis
 --------------------------------------------------------------------------------
 
 -- 1. Number of sales made in each time of the day per weekday
