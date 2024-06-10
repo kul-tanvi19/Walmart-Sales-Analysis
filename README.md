@@ -33,7 +33,9 @@ Dataset was provided by Kaggle Walmart Sales Forecasting Competition.
  
   - Data Cleaning/Wrangling :
     </br>
+    </br>
     This is the initial step, where we examine the data to check any NULL or missing or duplicate values and we replace those values using appropriate strategies.
+    
        - Create a database.
        - Import dataset file into SQL Server.
        - Check for null values in entire table. As our table doesn't contain any NULL values.
