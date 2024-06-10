@@ -5,6 +5,7 @@
 
 ## Table of Content
   - [Problem Statement](#Problem-Statement)
+  - [Questions to Answer](#Questions-to-Answer)
   - [Objective](#Objective)
   - [Datasource](#Datasource)
   - [Data Preparation](#Data-Preparation)
@@ -15,7 +16,7 @@
 Analyse Walmart Sales data to identify the top performing branches and products, sales patterns of a various products, and understand the customer behavior.
 
 
-### Questions to Answer
+## Questions to Answer
 ### General Questions :
   1. How many distinct cities are present in the dataset?
   2. In which city is each branch situated?
