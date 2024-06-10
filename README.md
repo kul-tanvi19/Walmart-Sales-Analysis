@@ -77,15 +77,16 @@ Dataset was provided by Kaggle Walmart Sales Forecasting Competition.
       - Check for null values in entire table. As our table doesn't contain any NULL values.
       - Check for duplicates based on `Invoice ID`. No duplicates in our table.
 
- 3. Feature Engineering :
-   </br>
-   </br>
-   This allows us to generate new columns from existing ones to answer the questions asked.
+  3. Feature Engineering :
+    </br>
+    </br>
+    This allows us to generate new columns from existing ones to answer the questions asked.
       - Added new column named as `time_of_day` which gives the insight of sales done in the (***Morning***, ***Afternoon***, ***Evening***).
       - Added new column named as `day_name` which contains the extracted days of the week (***Mon***, ***Tue***, ***Wed***, ***Thu***, ***Fri***, ***Sat***, ***Sun***).
       - Added new column names as `month_name` which contains the extracted months of the year (***Jan***, ***Feb***, ***Mar***, *so on..*).
 
-4. EDA :
-   </br>
-   </br>
-   Conducting exploratory data analysis to address all the questions listed above.
+
+  4. EDA :
+    </br>
+    </br>
+    Conducting exploratory data analysis to address all the questions listed above.
