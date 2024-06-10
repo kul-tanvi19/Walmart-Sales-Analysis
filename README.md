@@ -15,7 +15,7 @@
 Analyse Walmart Sales data to identify the top performing branches and products, sales patterns of a various products, and understand the customer behavior.
 
 
-**Questions to Answer**
+### Questions to Answer
 ### General Questions :
   1. How many distinct cities are present in the dataset?
   2. In which city is each branch situated?
@@ -46,7 +46,7 @@ Analyse Walmart Sales data to identify the top performing branches and products,
   9. Which day of the week has the best avg ratings?
   10. Which day of the week has the best average ratings per branch?
 
-## Sales Analysis Questions :
+### Sales Analysis Questions :
   1. Number of sales made in each time of the day per weekday
   2. Which city has the largest tax percent/ VAT (Value Added Tax)?
   3. Which customer type pays the most VAT?
