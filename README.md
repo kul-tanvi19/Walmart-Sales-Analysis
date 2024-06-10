@@ -28,11 +28,11 @@ Dataset was provided by Kaggle Walmart Sales Forecasting Competition.
 ## Data Preparation
   - Understanding the data : 
       - Data consists of `17 Columns` and `1000 records`.
-      - Column names are as *Invoice ID*,	 *Branch*,	 *City*,	 *Customer type*,  *Gender*,  *Product line*,  *Unit price*,  *Quantity*,  *Tax 5%*,  *Total*,  *Date*,  *Time*,  *Payment*, 
- *cogs*,  *gross margin percentage*,  *gross income*,  *Rating*.
+      - Column names are as ***Invoice ID***,	 ***Branch***,	 ***City***,	 ***Customer type***,  ***Gender***,  ***Product line***,  ***Unit price***,  ***Quantity***,  ***Tax 5%***,  ***Total***,  ***Date***,  ***Time***,  ***Payment***, ***cogs***,  ***gross margin percentage***,  ***gross income***,  ***Rating***.
       - This dataset contains the sales transactions from three Walmart branches located in Mandalay, Yangon and Naypyitaw, respectively.
  
   - Data Cleaning/Wrangling :
+    </br>
     This is the initial step, where we examine the data to check any NULL or missing or duplicate values and we replace those values using appropriate strategies.
        - Create a database.
        - Import dataset file into SQL Server.
