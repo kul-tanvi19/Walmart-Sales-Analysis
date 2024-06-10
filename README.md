@@ -90,3 +90,6 @@ Dataset was provided by Kaggle Walmart Sales Forecasting Competition.
     </br>
     </br>
     Conducting exploratory data analysis to address all the questions listed above.
+
+## Data Analysis
+SQL Server is used for EDA process.
