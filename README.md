@@ -71,8 +71,7 @@ Dataset was provided by Kaggle Walmart Sales Forecasting Competition.
   - Data Cleaning/Wrangling :
     </br>
     </br>
-    This is the initial step, where we examine the data to check any NULL or missing or duplicate values and we replace those values using appropriate strategies.
-    
+    This is the initial step, where we examine the data to check any NULL or missing or duplicate values and we replace those values using appropriate strategies.    
        - Create a database.
        - Import dataset file into SQL Server.
        - Check for null values in entire table. As our table doesn't contain any NULL values.
@@ -81,6 +80,8 @@ Dataset was provided by Kaggle Walmart Sales Forecasting Competition.
  - Feature Engineering :
    </br>
    </br>
-   This allows us to generate new columns from existing ones.
-
-       - 
+   This allows us to generate new columns from existing ones to answer the questions asked.
+       - Added new column named as `time_of_day` which gives the insight of sales done in the (***Morning***, ***Afternoon***, ***Evening***).
+       - Added new column named as `day_name` which contains the extracted days of the week (***Mon***, ***Tue***, ***Wed***, ***Thu***, ***Fri***, ***Sat***, ***Sun***).
+       - Added new column names as `month_name` which contains the extracted months of the year (***Jan***, ***Feb***, ***Mar***, *so on..*)
+   
