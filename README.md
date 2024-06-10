@@ -9,3 +9,7 @@
   - [Datasource](#Datasource)
   - [Data Preparation](#Data-Preparation)
   - [Data Analysis](#Data-Analysis)
+
+
+## Problem Statement
+Analyse Walmart Sales data to identify the top performing branches and products, sales patterns of a various products, and understand the customer behavior.
