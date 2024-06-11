@@ -92,4 +92,4 @@ Dataset was provided by Kaggle Walmart Sales Forecasting Competition.
     Conducting exploratory data analysis to address all the questions listed above.
 
 ## Data Analysis
-SQL Server is used for EDA process.
+SQL Server is used for the EDA process. After that the cleaned data is then exported to excel for visualisation purposes.
