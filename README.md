@@ -11,6 +11,7 @@
   - [Data Preparation](#Data-Preparation)
   - [Data Analysis](#Data-Analysis)
   - [Data Visualization](#Data-Visualization)
+  - [Insights](#Insights)
 
 
 ## Problem Statement
@@ -116,5 +117,26 @@ Once EDA process done we can then load the cleaned data file into the Power BI.
 
         ![image](https://github.com/kul-tanvi19/Walmart-Sales-Analysis/assets/172184420/d0eb64df-7186-461e-a2fd-db0521fd4018)
 
-   
-         
+
+## Insights
+- Total revenue - `322.97k`.
+- Total quantity sold - `5510`.
+- Average ratings given by customer - `6.97`.
+- Total COGS - `307.59k`.
+- Total VAT - `15.38k`.
+
+**Based on product sales analysis**
+  - Most selling product line is ***Electronic accessories*** as compared to other product lines.
+  - ***Food and beverages*** product line generates **highest revenue** even though the number of products sold is less than Electronic accessories product line.
+  - ***Food and beverages*** product line incurred the **highest VAT**.
+  - ***Naypyitaw*** city generated the **highest revenue** as `111k` also it has **largest VAT** as `5.2k`.
+  - Branch ***A*** sold the **maximum products** than other branches.
+  - Based on gender, *Female* buys most of the products from ***Fashion accessories*** whereas *Male* buys most of the products from ***Health and beauty*** product lines.
+  - ***Food and beverages*** product line got **maximum average rating** as `7.11`.
+
+**Based on customer sales analysis**
+  - ***Ewallet*** is the most common paymentmethod used by the customers.
+  - ***Member*** is the most common customer type and it generates **highest revenue** as `164k`.
+  - ***Female*** buys the most of the products as compared to male.
+  - Most of the customers gave ratings at ***Evening***.
+  - As per analysis ***Monday*** is the day which has the **best average ratings** as `7.15`.
