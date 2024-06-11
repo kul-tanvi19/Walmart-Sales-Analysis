@@ -10,6 +10,7 @@
   - [Datasource](#Datasource)
   - [Data Preparation](#Data-Preparation)
   - [Data Analysis](#Data-Analysis)
+  - [Data Visualization](#Data-Visualization)
 
 
 ## Problem Statement
@@ -92,4 +93,27 @@ Dataset was provided by Kaggle Walmart Sales Forecasting Competition.
     Conducting exploratory data analysis to address all the questions listed above.
 
 ## Data Analysis
-SQL Server is used for the EDA process. After that the cleaned data is then exported to excel for visualisation purposes.
+SQL Server is used for the EDA process. After that the cleaned data is then exported to excel for visualization purposes.
+
+## Data Visualization
+Once EDA process done we can then load the cleaned data file into the Power BI.
+  - Basic Transformation :
+      - Changed the data type of `Unit price`, `VAT`, `Total`, `COGS`, `gross margin percentage`,  `gross income`,  `Rating` columns from *text* to *decimal number*.
+      - Changed the data type of `Quantity` column from *text* to *whole number*.
+      - Changed the data type of  `Date` column from *text* to *date*
+      - Changed the data type of  `Time` column from *text* to *Time*.
+
+  - Visualization Dashboard :
+      - Product Sales Report : Conducted analysis on the data to understand the different product lines, determine the top-performing product lines and identify the improvement in other product lines.
+   
+        ![image](https://github.com/kul-tanvi19/Walmart-Sales-Analysis/assets/172184420/01755a66-8a64-420e-b127-fbf1a37995a1)
+
+        </br>
+        </br>
+
+      - Customer Sales Report : Conducted analysis to identify various customer segments, purchase trends.
+
+        ![image](https://github.com/kul-tanvi19/Walmart-Sales-Analysis/assets/172184420/d0eb64df-7186-461e-a2fd-db0521fd4018)
+
+   
+         
