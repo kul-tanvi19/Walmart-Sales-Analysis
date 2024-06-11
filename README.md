@@ -10,6 +10,8 @@
   - [Datasource](#Datasource)
   - [Data Preparation](#Data-Preparation)
   - [Data Analysis](#Data-Analysis)
+  - [Data Visualization](#Data-Visualization)
+  - [Insights](#Insights)
 
 
 ## Problem Statement
@@ -92,4 +94,49 @@ Dataset was provided by Kaggle Walmart Sales Forecasting Competition.
     Conducting exploratory data analysis to address all the questions listed above.
 
 ## Data Analysis
-SQL Server is used for EDA process.
+SQL Server is used for the EDA process. After that the cleaned data is then exported to excel for visualization purposes.
+
+## Data Visualization
+Once EDA process done we can then load the cleaned data file into the Power BI.
+  - Basic Transformation :
+      - Changed the data type of `Unit price`, `VAT`, `Total`, `COGS`, `gross margin percentage`,  `gross income`,  `Rating` columns from *text* to *decimal number*.
+      - Changed the data type of `Quantity` column from *text* to *whole number*.
+      - Changed the data type of  `Date` column from *text* to *date*
+      - Changed the data type of  `Time` column from *text* to *Time*.
+
+  - Visualization Dashboard :
+      - **Product Sales Report**
+          - Conducted analysis on the data to understand the different product lines, determine the top-performing product lines and identify the improvement in other product lines.
+            
+   
+        ![image](https://github.com/kul-tanvi19/Walmart-Sales-Analysis/assets/172184420/01755a66-8a64-420e-b127-fbf1a37995a1)
+  
+
+      - **Customer Sales Report**
+          - Conducted analysis to identify various customer segments, purchase trends.
+
+        ![image](https://github.com/kul-tanvi19/Walmart-Sales-Analysis/assets/172184420/d0eb64df-7186-461e-a2fd-db0521fd4018)
+
+
+## Insights
+- Total revenue - `322.97k`.
+- Total quantity sold - `5510`.
+- Average ratings given by customer - `6.97`.
+- Total COGS - `307.59k`.
+- Total VAT - `15.38k`.
+
+**Based on product sales analysis**
+  - Most selling product line is ***Electronic accessories*** as compared to other product lines.
+  - ***Food and beverages*** product line generates **highest revenue** even though the number of products sold is less than Electronic accessories product line.
+  - ***Food and beverages*** product line incurred the **highest VAT**.
+  - ***Naypyitaw*** city generated the **highest revenue** as `111k` also it has **largest VAT** as `5.2k`.
+  - Branch ***A*** sold the **maximum products** than other branches.
+  - Based on gender, *Female* buys most of the products from ***Fashion accessories*** whereas *Male* buys most of the products from ***Health and beauty*** product lines.
+  - ***Food and beverages*** product line got **maximum average rating** as `7.11`.
+
+**Based on customer sales analysis**
+  - ***Ewallet*** is the most common paymentmethod used by the customers.
+  - ***Member*** is the most common customer type and it generates **highest revenue** as `164k`.
+  - ***Female*** buys the most of the products as compared to male.
+  - Most of the customers gave ratings at ***Evening***.
+  - As per analysis ***Monday*** is the day which has the **best average ratings** as `7.15`.
