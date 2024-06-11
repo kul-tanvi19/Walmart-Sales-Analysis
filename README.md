@@ -109,13 +109,15 @@ Once EDA process done we can then load the cleaned data file into the Power BI.
           - Conducted analysis on the data to understand the different product lines, determine the top-performing product lines and identify the improvement in other product lines.
             
    
-        ![image](https://github.com/kul-tanvi19/Walmart-Sales-Analysis/assets/172184420/01755a66-8a64-420e-b127-fbf1a37995a1)
+        ![image](https://github.com/kul-tanvi19/Walmart-Sales-Analysis/assets/172184420/d6b666f7-98d8-4638-92a0-1f89d3f67693)
+
   
 
       - **Customer Sales Report**
           - Conducted analysis to identify various customer segments, purchase trends.
 
-        ![image](https://github.com/kul-tanvi19/Walmart-Sales-Analysis/assets/172184420/d0eb64df-7186-461e-a2fd-db0521fd4018)
+        ![image](https://github.com/kul-tanvi19/Walmart-Sales-Analysis/assets/172184420/00c591d4-ba7b-4995-8925-04286736326c)
+
 
 
 ## Insights
@@ -125,7 +127,7 @@ Once EDA process done we can then load the cleaned data file into the Power BI.
 - Total COGS - `307.59k`.
 - Total VAT - `15.38k`.
 
-**Based on product sales analysis**
+**Based on product analysis**
   - Most selling product line is ***Electronic accessories*** as compared to other product lines.
   - ***Food and beverages*** product line generates **highest revenue** even though the number of products sold is less than Electronic accessories product line.
   - ***Food and beverages*** product line incurred the **highest VAT**.
@@ -134,8 +136,8 @@ Once EDA process done we can then load the cleaned data file into the Power BI.
   - Based on gender, *Female* buys most of the products from ***Fashion accessories*** whereas *Male* buys most of the products from ***Health and beauty*** product lines.
   - ***Food and beverages*** product line got **maximum average rating** as `7.11`.
 
-**Based on customer sales analysis**
-  - ***Ewallet*** is the most common paymentmethod used by the customers.
+**Based on customer analysis**
+  - ***Ewallet*** is the most common payment method used by the customers.
   - ***Member*** is the most common customer type and it generates **highest revenue** as `164k`.
   - ***Female*** buys the most of the products as compared to male.
   - Most of the customers gave ratings at ***Evening***.
