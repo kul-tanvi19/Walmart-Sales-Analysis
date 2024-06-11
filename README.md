@@ -105,15 +105,14 @@ Once EDA process done we can then load the cleaned data file into the Power BI.
 
   - Visualization Dashboard :
       - **Product Sales Report**
-        Conducted analysis on the data to understand the different product lines, determine the top-performing product lines and identify the improvement in other product lines.
+          - Conducted analysis on the data to understand the different product lines, determine the top-performing product lines and identify the improvement in other product lines.
+            
    
         ![image](https://github.com/kul-tanvi19/Walmart-Sales-Analysis/assets/172184420/01755a66-8a64-420e-b127-fbf1a37995a1)
-
-        </br>
   
 
       - **Customer Sales Report**
-        Conducted analysis to identify various customer segments, purchase trends.
+          - Conducted analysis to identify various customer segments, purchase trends.
 
         ![image](https://github.com/kul-tanvi19/Walmart-Sales-Analysis/assets/172184420/d0eb64df-7186-461e-a2fd-db0521fd4018)
 
