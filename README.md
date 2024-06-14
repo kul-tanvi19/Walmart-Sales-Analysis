@@ -66,17 +66,17 @@ Dataset was provided by Kaggle Walmart Sales Forecasting Competition.
 
 
 ## Data Preparation
-  1. Understanding the data : 
+  1. Create Database
+  2. Import dataset into SQL SERVER
+  3. Understanding the data : 
       - Data consists of `17 Columns` and `1000 records`.
       - Column names are as ***Invoice ID***,	 ***Branch***,	 ***City***,	 ***Customer type***,  ***Gender***,  ***Product line***,  ***Unit price***,  ***Quantity***,  ***Tax 5%***,  ***Total***,  ***Date***,  ***Time***,  ***Payment***, ***cogs***,  ***gross margin percentage***,  ***gross income***,  ***Rating***.
       - This dataset contains the sales transactions from three Walmart branches located in Mandalay, Yangon and Naypyitaw, respectively.
  
-  2. Data Cleaning/Wrangling :
+  4. Data Cleaning/Wrangling :
     </br>
     </br>
     This is the initial step, where we examine the data to check any NULL or missing or duplicate values and we replace those values using appropriate strategies.
-      - Create a database.
-      - Import dataset file into SQL Server.
       - Check for null values in entire table. As our table doesn't contain any NULL values.
       - Check for duplicates based on `Invoice ID`. No duplicates in our table.
 
