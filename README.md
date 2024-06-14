@@ -89,10 +89,6 @@ Dataset was provided by Kaggle Walmart Sales Forecasting Competition.
       - Added new column names as `month_name` which contains the extracted months of the year (***Jan***, ***Feb***, ***Mar***, *so on..*).
 
 
-  4. EDA :
-    </br>
-    </br>
-    Conducting exploratory data analysis to address all the questions listed above.
 
 ## Data Analysis
 SQL Server is used for the EDA process. After that the cleaned data is then exported to excel for visualization purposes.
