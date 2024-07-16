@@ -13,6 +13,7 @@
   - [Data Analysis](#Data-Analysis)
   - [Data Visualization](#Data-Visualization)
   - [Insights](#Insights)
+  - [Suggestions](#Suggestions)
 
 
 ## Problem Statement
@@ -139,3 +140,9 @@ Once EDA process done we can then load the cleaned data file into the Power BI.
   - ***Female*** buys the most of the products as compared to male.
   - Most of the customers gave ratings at ***Evening***.
   - As per analysis ***Monday*** is the day which has the **best average ratings** as `7.15`.
+
+## Suggestions
+- Perform a thorough cost analysis to identify opportunities for reducing expenses while maintaining product quality and customer experience.
+- Negotiate with suppliers to reduce COGS.
+- Identify high-value, profitable customers and implement a personalized marketing strategy with targeted product recommendations to enhance customer retention.
+- Maintain organized records of all transactions, invoices, and VAT payments to facilitate audits and compliance. 
